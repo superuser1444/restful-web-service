@@ -1,0 +1,10 @@
+server:
+  port: 8088
+
+logging:
+  level:
+    org.springframework: DEBUG
+
+spring:
+  messages:
+    basename: messages # 다국어 파일의 이름이 messages
