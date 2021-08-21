@@ -8,3 +8,9 @@ logging:
 spring:
   messages:
     basename: messages # 다국어 파일의 이름이 messages
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
