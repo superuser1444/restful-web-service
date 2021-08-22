@@ -8,6 +8,10 @@ logging:
 spring:
   messages:
     basename: messages # 다국어 파일의 이름이 messages
+#  security:
+#    user:
+#      name: username
+#      password: passw0rd
 
 management:
   endpoints:
