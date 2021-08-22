@@ -6,6 +6,8 @@ logging:
     org.springframework: DEBUG
 
 spring:
+  jpa:
+    show-sql: true
   messages:
     basename: messages # 다국어 파일의 이름이 messages
 #  security:
